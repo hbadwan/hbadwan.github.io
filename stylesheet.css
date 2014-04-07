@@ -57,7 +57,7 @@ hr.hr {
 
 a{
     text-decoration:none;
-    border-bottom:2px solid pink;
+    border-bottom:2px solid #FFBFFA;
     
     
 }
@@ -125,6 +125,7 @@ font-family:'open_sansCnLtIt'
     width:800px;
     margin:0 auto;
     font-family:courier;
+    font-size:10pt;
 }
 
 
