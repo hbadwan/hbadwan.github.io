@@ -6,10 +6,34 @@ Author: hannah barbera
 Author URI: http://whoishb.com
 */
 
+@font-face {
+    font-family: 'open_sansCnLtIt';
+    src: url('fonts/OpenSans-CondLightItalic-webfont.eot');
+    src: url('fonts/OpenSans-CondLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-CondLightItalic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-CondLightItalic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-CondLightItalic-webfont.svg#open_sansCnLtIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url('fonts/OpenSans-CondLight-webfont.eot');
+    src: url('fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('fonts/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-CondLight-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 h1{
     font-family:garamond,serif; 
     font-size:25px;
-    text-align:;
     color:grey;
 }
 
@@ -18,19 +42,29 @@ hr.hr {
     border: 1px solid pink;
     background-color:pink;
 }
+
 a{
     text-decoration:none;}
 
-.navmenu{
+.navmenu a{
     display:inline;
     padding:5px; 
     letter-spacing:2px; 
     text-transform:uppercase; 
     font-weight:lighter;
     color:#444; 
-    font-family:sans-serif;
-    
+    font-family:'open_sanscondensed_light';    
+}
 
+.navmenu a:hover{
+font-family:'open_sansCnLtIt'
+
+}
+
+.socialmedia
+{ height:15px;
+    margin: 3px;
+    float:right;
 }
 
 .main-content{
@@ -46,6 +80,11 @@ a{
 
 .foot-right{float:right; width:50%; text-align:right; height:20px;}
 */
+
+#timedisplay,.foot-left
+{
+    font-family:garamond;
+}
 
 
 
