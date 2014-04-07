@@ -50,8 +50,8 @@ h1{
 }
 
 hr.hr {
-    border: 1px solid pink;
-    background-color:pink;
+    border: 1px solid #FFBFFA;
+    background-color:#FFBFFA;
     margin-bottom:25px;
 }
 
@@ -124,7 +124,7 @@ font-family:'open_sansCnLtIt'
 {
     width:800px;
     margin:0 auto;
-    font-family:garamond;
+    font-family:courier;
 }
 
 
