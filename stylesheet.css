@@ -42,6 +42,13 @@ h1{
     text-align:center;
 }
 
+
+#container
+{   width:800px;
+    margin: 0 auto;
+    
+}
+
 hr.hr {
     border: 1px solid pink;
     background-color:pink;
@@ -100,6 +107,8 @@ font-family:'open_sansCnLtIt'
 
 #timedisplay,.foot-left
 {
+    width:800px;
+    margin:0 auto;
     font-family:garamond;
 }
 
