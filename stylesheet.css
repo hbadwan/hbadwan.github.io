@@ -37,14 +37,29 @@ h1{
     color:grey;
 }
 
+.image
+{
+    text-align:center;
+}
 
 hr.hr {
     border: 1px solid pink;
     background-color:pink;
+    margin-bottom:25px;
 }
 
 a{
-    text-decoration:none;}
+    text-decoration:none;
+    border-bottom:2px solid pink;
+    
+    
+}
+
+.navmenu{
+    margin-bottom:15px;
+     text-align:center;
+}
+
 
 .navmenu a{
     display:inline;
@@ -53,8 +68,10 @@ a{
     text-transform:uppercase; 
     font-weight:lighter;
     color:#444; 
-    font-family:'open_sanscondensed_light';    
+    font-family:'open_sanscondensed_light';     
 }
+
+
 
 .navmenu a:hover{
 font-family:'open_sansCnLtIt'
