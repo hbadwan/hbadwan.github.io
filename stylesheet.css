@@ -97,13 +97,28 @@ font-family:'open_sansCnLtIt'
 
 .image{
     align-items:center;
+    clear:both;
 }
-    
-/*
-.foot-left{float:left; width:50%; height:20px;}
 
-.foot-right{float:right; width:50%; text-align:right; height:20px;}
-*/
+.image:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+    .leftimage
+{
+    float:left;
+}
+
+.image p
+{ text-align:left;
+    font-family:'open_sanscondensed_light';
+}
+
+
+
 
 #timedisplay,.foot-left
 {
